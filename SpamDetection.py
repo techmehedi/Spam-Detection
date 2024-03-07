@@ -6,7 +6,7 @@ import streamlit as st #For creating the web app
 
 # Read and Clean Data
 
-data = pd.read_csv("/Users/mehedihasan/Downloads/spam.csv")
+data = pd.read_csv("spam.csv")
 
 data.drop_duplicates(inplace=True)
 
